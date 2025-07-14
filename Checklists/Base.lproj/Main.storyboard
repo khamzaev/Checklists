@@ -302,6 +302,9 @@
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="47" id="vJR-OJ-8j5"/>
                                                     </constraints>
                                                     <color key="onTintColor" red="0.015686274510000001" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <action selector="shouldRemindToggled:" destination="FfE-Nz-M9J" eventType="valueChanged" id="z3I-eK-UHz"/>
+                                                    </connections>
                                                 </switch>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remind Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTJ-FA-OQa">
                                                     <rect key="frame" x="28" y="8.6666666666666643" width="303" height="21"/>
